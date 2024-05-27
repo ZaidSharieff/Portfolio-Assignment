@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("../public/frieren wallpaper.jpg");
+  /* background-attachment: fixed; */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #222426;
 }
 
 code {

@@ -1,0 +1,10 @@
+.interest-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 160px;
+    background-color: black;
+    color: rgb(154, 146, 132);
+}

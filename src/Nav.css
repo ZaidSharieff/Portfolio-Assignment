@@ -1,0 +1,47 @@
+#nav {
+    color: rgb(189, 183, 175);
+    display: flex;
+    position: fixed;
+    margin: 0;
+    width: 940px;
+    height: 64px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+}
+
+#nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    gap: 30px;
+    font-size: 14px;
+}
+
+#hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+}
+
+#name-nav {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 80px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.hash-link {
+    color: rgb(189, 183, 175);
+    text-decoration: none;
+}
