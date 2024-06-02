@@ -9,11 +9,11 @@ function MainCard() {
                     <img id="profile" src="./profile.jpg" width={230 + "px"} alt="Profile"></img>
                 </div>
                 <div className="links">
-                    <img className="link" src="./facebook icon.png"></img>
-                    <img className="link" src="./twitter icon.png"></img>
-                    <img className="link" src="./linkedin icon.webp"></img>
-                    <img className="link" src="./instagram icon.webp"></img>
-                    <img className="link" src="./github icon.png"></img>
+                    <img className="link" src="./facebook icon.png" alt='facebook icon'></img>
+                    <img className="link" src="./twitter icon.png" alt='twitter icon'></img>
+                    <img className="link" src="./linkedin icon.webp" alt='linkedin icon'></img>
+                    <img className="link" src="./instagram icon.webp" alt='instagram icon'></img>
+                    <img className="link" src="./github icon.png" alt='github icon'></img>
                 </div>
             </div>
             <div id="card-right">

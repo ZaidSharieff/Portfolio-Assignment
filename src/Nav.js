@@ -5,13 +5,11 @@ function Nav() {
             <div id="nav">
                 <div id="nav-left">
                     <div id="hamburger">
-                        <img className='link' src='./hamburger icon.png'></img>
+                        <img className='link' src='./hamburger icon.png' alt='ham'></img>
                     </div>
                     <div id="name-nav">Zaid Sharieff</div>
                 </div>
                 <div id="nav-right">
-                    {/* <Link to="App/#about-section"> */}
-                    {/* </Link> */}
                     <a className="hash-link" href="#about-section">
                         <div className="clickable" id="about">About</div>
                     </a>
@@ -28,7 +26,7 @@ function Nav() {
                         <div className="clickable" id="contact">Contact</div>
                     </a>
                     <div id="options">
-                        <img className="link" src='./options icon.png'></img>
+                        <img className="link" src='./options icon.png' alt='options'></img>
                     </div>
                 </div>
             </div>
