@@ -45,3 +45,16 @@
     color: rgb(189, 183, 175);
     text-decoration: none;
 }
+
+.hash-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.1s ease;
+}
+
+.hash-link:hover::after {
+    width: 100%;
+}
